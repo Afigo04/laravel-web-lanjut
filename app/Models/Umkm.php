@@ -12,6 +12,7 @@ class Umkm extends Model
         'address',
         'area',
         'description',
+        'phone_number',
         'instagram',
         'facebook',
         'twitter',
