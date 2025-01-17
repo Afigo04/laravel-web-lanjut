@@ -21,7 +21,7 @@
                 {{$batik->business_name}} 
                 </h1>
                 <p class="text-yellow-500 mb-4">
-                berasal dari Ponorogo 
+                berasal dari {{ $batik->area}} 
                 </p>
                 <p class="mb-4">
                 Kategori Produk:

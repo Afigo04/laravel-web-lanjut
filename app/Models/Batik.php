@@ -9,6 +9,7 @@ class Batik extends Model
     protected $table = 'batiks';
     protected $fillable = [
         'business_name',
+        'area',
         'address',
         'description',
         'phone_number',

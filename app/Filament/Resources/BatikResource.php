@@ -31,6 +31,7 @@ class BatikResource extends Resource
                 Card::make()
                     ->schema([
                         TextInput::make('business_name')->required()->label('Nama Bisnis'),
+                        TextInput::make('area')->required()->label('Alamat'),
                         TextInput::make('address')->required()->label('Link Maps'),
                         RichEditor::make('description')->required()->label('Deskripsi'),
                         TextInput::make('phone_number')->label('Nomor Telepon'),
@@ -48,6 +49,7 @@ class BatikResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('business_name')->label('Nama Bisnis'),
+                TextColumn::make('area')->label('Alamat'),
                 TextColumn::make('address')->label('Link Maps'),
                 TextColumn::make('description')->label('Deskripsi')->limit(50),
                 TextColumn::make('phone_number')->label('Nomor Telepon'),
