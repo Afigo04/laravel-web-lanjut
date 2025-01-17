@@ -11,6 +11,7 @@ class Batik extends Model
         'business_name',
         'address',
         'description',
+        'phone_number',
         'instagram',
         'facebook',
         'twitter',

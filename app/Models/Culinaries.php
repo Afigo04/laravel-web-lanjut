@@ -12,6 +12,7 @@ class Culinaries extends Model
         'area',
         'address',
         'description',
+        'phone_number',
         'instagram',
         'facebook',
         'twitter',

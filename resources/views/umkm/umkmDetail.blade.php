@@ -112,7 +112,7 @@
                         @if(is_null($umkm->phone_number))
                             Tidak ada nomor telepon
                         @else
-                            $umkm->phone_number
+                            {{ $umkm->phone_number }}
                         @endif 
                     </p>
                     <p>
