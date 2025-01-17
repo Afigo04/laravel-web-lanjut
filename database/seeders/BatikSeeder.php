@@ -15,6 +15,7 @@ class BatikSeeder extends Seeder
     {
         DB::table('batiks')->insert([
             'business_name' => 'Batik Lenggo',
+            'area' => 'Krajan',
             'address' => 'maps.com',
             'description' => 'batiknya bagus',
             'image' => 'gambar batik'  
@@ -22,6 +23,7 @@ class BatikSeeder extends Seeder
 
         DB::table('batiks')->insert([
             'business_name' => 'Batik Bagus',
+            'area' => 'Krajan',
             'address' => 'maps.com',
             'description' => 'batiknya awet cuy',
             'image' => 'gambar batik'  

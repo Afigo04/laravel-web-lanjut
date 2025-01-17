@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('batiks', function (Blueprint $table) {
             $table->id();
             $table->string('business_name', 25);
+            $table->string('area', 25);
             $table->text('address');
             $table->longText('description');
             $table->string('phone_number', 13)->nullable();
