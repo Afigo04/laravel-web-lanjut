@@ -50,6 +50,7 @@ class BatikResource extends Resource
                 TextColumn::make('business_name')->label('Nama Bisnis'),
                 TextColumn::make('address')->label('Link Maps'),
                 TextColumn::make('description')->label('Deskripsi')->limit(50),
+                TextColumn::make('phone_number')->label('Nomor Telepon'),
                 TextColumn::make('instagram')->label('Link Instagram'),
                 TextColumn::make('facebook')->label('Link Facebook'),
                 TextColumn::make('twitter')->label('Link Twitter'),
