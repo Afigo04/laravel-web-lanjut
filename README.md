@@ -38,4 +38,5 @@ Command artisan diatas untuk membuat user admin
 > npm run dev
 
 > php artisan serve
+
 Sekarang aplikasi web sudah berjalan di komputer masing-masing. Jika ada masalah bisa ditanyakan.
